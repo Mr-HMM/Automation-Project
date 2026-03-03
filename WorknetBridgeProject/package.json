@@ -1,0 +1,16 @@
+{
+  "name": "worknet_bridge_completion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Using Playwright to automate data entry from excel in IL Worknet for trainee Bridge Program Completion",
+  "scripts": {
+    "start": "node worknet.js",
+    "postinstall": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "xlsx": "^0.18.5"
+  }
+}
+
